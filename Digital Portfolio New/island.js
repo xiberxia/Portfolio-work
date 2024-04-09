@@ -1,9 +1,9 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-//import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 //get the renderer
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: the_island });
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 //make render box
@@ -27,7 +27,7 @@ camera.lookAt(0,0,0);
 
 
 //move camera around
-/*
+
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = false;
@@ -39,7 +39,7 @@ controls.autoRotate = false;
 controls.target = new THREE.Vector3(0, 0, 0);
 controls.autoRotate = false;
 controls.update();
-*/
+
 
 //make ground plane
 const groundGeometry = new THREE.PlaneGeometry(20, 20, 32, 32);
@@ -109,7 +109,7 @@ function animate() {
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
     if (mixer)
-        mixer.update(clock.getDelta());//controls.update();
+        mixer.update(clock.getDelta());controls.update();
   }
   
   //call the function

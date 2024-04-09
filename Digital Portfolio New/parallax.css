@@ -6,7 +6,7 @@ h2 {
     color: #f1f1f1;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    
+    text-align: center;
 }
 
 #text_hello {
@@ -16,15 +16,48 @@ h2 {
 h3 {
     color: #d8d8d8;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 25px;
+    
 
 }
 
 p,li {
     color: #b5b5b5;
     font-family: 'Courier New', Courier, monospace;
-   
+    font-size: 18px;
 }
 
-#for_prabir {
-    color:  #00ff00 
+li {
+    margin-right: 10px;
+}
+
+.achievements_21_22, .achievements_22_23, .achievements_23_24 {
+    width: 40%;
+    border: solid;
+}
+
+.achievements_21_22 {
+    margin-left: 10%;
+}
+
+.achievements_22_23 {
+    margin-left: 30%;
+}
+
+.achievements_23_24 {
+    margin-left: 50%;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.island_3D {
+    position: absolute;
+
+}
+
+canvas {
+    margin-left: 250px;
 }
