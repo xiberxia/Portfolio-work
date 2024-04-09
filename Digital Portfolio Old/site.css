@@ -1,0 +1,86 @@
+body {
+    background-color: #e0d5b8;  
+    color: #4a351e;
+    font-family: Verdana;
+}
+
+.title {
+    text-align: center;
+    margin: 50px;
+}
+
+/*
+Adv-CS-I Nav Page
+*/
+
+    
+ul.journal_navbar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 25%;
+}
+
+li.journal_navbar {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+li.journal_navbar a {
+    display: block;
+    padding: 20px 16px;
+    color: white;
+    border: 1px solid white;
+    background-color: #9caf88;
+}
+
+li.journal_navbar a:hover {
+    display: block;
+    background-color: #728c5f;
+}
+
+#journal_home {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+#journal_home a {
+    display: block;
+    padding: 20px 16px;
+    border: 2px solid #f5f4f0;
+    color: #f5f4f0;
+    background-color: #9caf88;
+    margin: 10px;
+}
+
+#journal_home a:hover {
+    background-color: #728c5f;
+    display: block;
+}
+
+/*
+home navbar
+*/
+
+li.home_navbar a {
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+/*
+block Antique Brass
+DDBEA9 Desert Sand
+FFE8D6 very light pink/sand
+B7B7A4 Ash green-grey, sage
+A5A58D Artichoke/darker sage
+6B705C Ebony/sage/dark green
+
+606C38 dark olive green
+283618 kombu really dark forest green
+DDA15E earth yellow
+5B280C dark brown
+3C1808 darker brown
+*/
+
+/* <link rel="stylesheet" href="../../site.css"> */

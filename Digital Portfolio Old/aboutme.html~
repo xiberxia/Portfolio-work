@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+      body {
+	  text-align: center;
+      }
+      p {
+	  width: 50%;
+	  margin: auto;
+	  padding-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>About Me</h1>
+    <p>Hi, I'm Tiffany Jiang. I'm a Computer Science student in my third year at Allen High School. I'm interested in front-end coding, as well as Cybersecurity, with a specialization in Linux systems. Other hobbies I enjoy include creative writing and violin. This digital portfolio is a work-in-progress, but currently contains much of my work from CS-I and CS-II at Allen High School.</p>
+
+    <p>&nbsp;</p>
+    
+    <p id="journal_home"><a href="index.html">Home</a></p>
+    
+  </body>
+  
+</html>

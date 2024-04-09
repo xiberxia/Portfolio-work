@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../journal.css">
+    <title>CS-I Journal J1292</title>
+  </head>
+
+  <body>
+    <div class="journalheading">
+      <h1>CS-I Journal J1292: Useful Randomness</h1>
+      <p>Name: Tiffany Jiang</p>
+      <p>Date: 14-Mar-2023</p>
+
+      <p>I received assistance from: NO ONE</p>
+      <p>I assisted: NO ONE</p>
+    </div>
+
+    <p>&nbsp;</p>
+    
+    <section class="sections">
+    <div id="section1">
+      <h2>Section 1</h2>
+      <h3>1.1: Estimate the value of π using your program. 1) Throw 100 darts (N = 100). What result do you obtain? 2) Throw 1000 darts (N = 1000). What result do you obtain?</h3>
+      <p>1) Throwing 100 darts, my result is 3.24. 2) Throwing 1000 darts, the result obtained is 3.108. (Throwing 1 million darts, I obtain 3.143676)</p>
+      <h3>1.2: How is the second result different from your previous result?</h3>
+      <p>The second result is more precise, and has more significant figures.</p>
+      <h3>1.3: How large should N be to accurately estimate n to five digits?</h3>
+      <p>At least 1,000,000,000, assuming the margin of error would be four digits.</p>
+      <h3>1.4: How important is it that the dart be "thrown" randomly?</h3>
+      <p>It makes sure that the spread of the darts across the board would generally be even and unbiased.</p>
+    
+    
+    </div>
+    </section>
+
+    <p>&nbsp;</p>
+    
+    <div class="jsummaryflexbox">
+      <div class="jsummary">
+	<h2>What did I learn? What is the "big idea"?</h2>
+	<p>I learned more about the utilization of Swift's .random function and the origins of Pi.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>What challenges did I encounter?</h2>
+	<p>Realizing the logic was simple, but organizing them into different functions was not, as this messed with the overall simple and linear flow of instruction. Organizing the variables to not be global was also a perplexing endeavor.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>How could this experience be improved?</h2>
+	<p>Clarification in the instructions about finding Pi can be made. The 5th instruction assumes that the student uses the range "0...1" when randomizing numbers, but one can also use the full range of "-1...1", thus making this fifth instruction to be confusing as the ratio (mentioned in the 4th instruction) is already the full correct one.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+	<p>After completing the exercise, I have a better understanding of swift coding, using Foundation, and Pi, and randomness.</p>
+      </div>
+    </div>
+
+    <p>&nbsp;</p>
+    
+    <p id="journal_home">
+      <a href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-I/index.html">Adv CS-I</a>
+    </p>
+
+    <p id="journal_home" class="jnav_flexbox">
+      <a class="jnav" href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-I/Journals/J1153.html">J1153: Repeat-While Loops</a>
+
+    </p>
+    
+  </body>
+</html>

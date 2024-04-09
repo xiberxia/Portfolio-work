@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../site.css">
+    <title>CS-I Journal J1016</title>
+  </head>
+
+  <body>
+    <h1>CS-I Journal J1016: Logic Composition</h1>
+    <p>Name: Tiffany Jiang</p>
+    <p>Date: 04-Oct-2022</p>
+
+    <p>I received assistance from: NO ONE</p>
+    <p>I assisted: NO ONE</p>
+
+    <h2>Excercise:</h2>
+    <img src="../../assets/images/logic_composition.png">
+
+    <h2>Excursion</h2>
+    <img src="../../assets/images/7_input_device.png">
+
+
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>I learned how to make various logic gates with only a single one. It was very satisfying when I finished the excercise and excursion.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>Making a XOR gate out of NAND gates from scratch was the most strenous part of the experience for me.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>I didn't really know what the Excursion section was asking for initially. It took some time for me to realize exactly what I was supposed to make.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>I've gained a new respect for computer scientists back in the day when computers were a new thing.</p>
+
+    &nbsp;
+
+    <p><a href="https://www.codermerlin.com/users/tiffany-jiang/Digital%20Portfolio/CS-I/index.html">Back</a></p>
+    
+  </body>
+</html>

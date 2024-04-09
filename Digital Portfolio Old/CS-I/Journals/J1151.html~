@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1151</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../journal.css">
+  </head>
+
+  <body>
+    <div class="journalheading">
+      <h1>CS-I Journal J1151: Conditional and Flow Charts</h1>
+      <p>Author: Tiffany Jiang</p>
+      <p>Date: 19-Jan-2023</p>
+      <p>I received assistance from: NO ONE</p>
+      <p>I assisted: NO ONE</p>
+    </div>
+
+    <p>&nbsp;</p>
+    <section class="sections">
+    <div id="section1">
+      <h2>Section 1</h2>
+      <h3>1.1: How does branching enable significantly more complex program behavior?</h3>
+      <p>Ans: Branching allows for options to be give, increasing the amount of ways that a program can be run.</p>
+      <h3>1.2: Why do you think the term <i>consequent</i> is used to refer to the statements that are executed whenthe <i>boolean test</i> evaluates to true?</h3>
+      <p>'Consequent' would refer to the direct and foremost result of a question, as opposed to 'alternative,' which suggests that the answer is another option.</p>
+    </div>
+
+    <hr>
+
+    <div id="section2">
+      <h2>Section 2</h2>
+      <h3>2.1: Why is the first <i>Jump</i> instruction conditional? What determines whether the jump will be executed or not?</h3>
+      <p>The program tests whether the number is lesser than equal (indicated by "jle" in line 13) to four (indicated by "$4" on line 9), and the jump to the "alternative" option occurs if this is true.</p>
+      <h3>2.2: What is the purpsose of the <i>Jump</i> conditional after the <i>consequent</i>?</h3>
+      <p>It makes the program jump to the process under "afterAlternative".</p>
+      <h3>Why is there no need for a corresponding <i>Jump</i> instruction after the <i>alternative</i>?</h3>
+      <p>The "afterAlternative," or the process that ends the program, is consecutive after the 'alternative' sequence.</p>
+    </div>
+
+    <hr>
+    
+    <div id="section3">
+      <div id="section3">
+	<h2><a href="../../assets/images/J1151flowcharts.xml">Exercise</a></h2>
+	<a href="../../assets/images/J1151flowcharts.png"><img src="../../assets/images/J1151flowcharts.png"></a>
+	<p>(xml file linked in heading)</p>
+      </div>
+    </section>
+    <p>&nbsp;</p>
+
+    <div class="jsummaryflexbox">
+
+      <div class="jsummary">
+	<h2>What did I learn? What is the "big idea"?</h2>
+	<p>Flow charts can help organize and display a proccess, and are consist of shapes that depict various operations connected by arrows. The process by which flow charts operate by are very similar to how programs are written in assembly language.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>What challenges did I encounter?</h2>
+	<p>Thinking through the logic carefully was a little confusing, but using the drawing application allowed me to visualize it better.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>How could this experience be improved?</h2>
+	<p>I wonder if the rhombus Decision symbol can have three or more options attached to it.</p>
+      </div>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <p id="journal_home">
+      <a href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-I/index.html">Adv CS-I</a>
+    </p>
+    <p class="jnav_flexbox" id="journal_home">
+      <a href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-I/Journals/J1017.html" class="jnav">J1017: Binary Adders</a>
+    </p>
+					      
+  </body>
+</html>

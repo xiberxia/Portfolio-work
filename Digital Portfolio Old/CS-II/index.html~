@@ -1,0 +1,31 @@
+<!DOCTYP html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Advanced Computer Science II</title>
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <h1 class="title"> Advanced Computer Science II</h1>
+
+  <ul class="journal_navbar">
+<!--    <li class="journal_navbar"><a href="Projects/ISP/Journal.html">CS-I ISP Journal</a></li> -->
+<!--          <li class="journal_navbar"><a href="blog.html">Blog</a></li>-->
+  </ul>
+  
+  <p>&nbsp;</p>
+  
+  <body>
+    <ul class="journal_navbar">
+      <li class="journal_navbar"><a href="Journals/W1351.html">J1351: Swap Function</a></li>
+    </ul>
+
+    <ul class="journal_navbar">
+      <li class="journal_navbar"><a href="Projects/ConspiracyTheory.html">J1351: Swap Function</a></li>
+    </ul>
+      
+    <p>&nbsp;</p>
+
+    <p id="journal_home"><a href="https://www.codermerlin.com/users/tiffany-jiang/Digital%20Portfolio/index.html">Home</a></p>
+    
+  </body>
+</html>

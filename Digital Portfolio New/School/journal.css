@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*HEADING*/
+
+div.journalheading {
+    padding-top: 30px;
+    padding-left: 210px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.journalheading h1 {
+    color: rgb(240,240,240);
+    font-size: 30px;
+}
+
+.journalheading p {
+    color: rgb(210,210,210);
+}
+
+/*QUESTIONS SECTION*/
+
+section.sections {
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 220px
+}
+
+.sections div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sections h2 {
+    color: rgb(210,210,210);
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.sections h3 {
+    color: rgb(210,210,210);
+    font-weight: 1;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.sections p {
+    color: rgb(190,190,190);
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.sections a {
+    color: rgb(210,210,210);
+}
+
+/*HORIZONTAL RULE*/
+
+hr {
+    border-color: rgb(100,100,100);
+}
+
+/*JSUMMARY - END*/
+
+div.jsummary {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 220px;
+}
+
+.jsummary h2 {
+    color: rgb(210,210,210);
+}
+
+.jsummary p {
+    color: rgb(190,190,190);
+    padding-left: 15px;
+}
+
+/*IMAGES*/
+img {
+    width: 100%;
+}
+

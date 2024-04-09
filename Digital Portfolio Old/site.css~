@@ -1,0 +1,44 @@
+body {
+    background-color: #9caf88;
+    color: #FFFFFF;
+    font-family: Verdana;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: CB997E;
+    text-align: center;
+    width: 40%px;
+}
+
+li.navbar {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+
+li.navbar a:hover {
+    background-color: B7B7A4
+}
+
+
+/*
+block Antique Brass
+DDBEA9 Desert Sand
+FFE8D6 very light pink/sand
+B7B7A4 Ash green-grey, sage
+A5A58D Artichoke/darker sage
+6B705C Ebony/sage/dark green
+
+606C38 dark olive green
+283618 kombu really dark forest green
+DDA15E earth yellow
+5B280C dark brown
+3C1808 darker brown
+*/
+
+/* <link rel="stylesheet" href="../../site.css"> */

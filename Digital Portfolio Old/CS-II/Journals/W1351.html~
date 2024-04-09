@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-2 Journal J1351</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../journal.css">
+  </head>
+
+  <body>
+    <div class="journalheading">
+      <h1>CS-I Journal J1006: Source Control</h1>
+      <p>Name: Tiffany Jiang</p>
+      <p>Date: 8/22/2023</p>
+      <p>I received assistance from: NO ONE</p>
+      <p>I assisted: NO ONE</p>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <section class="sections">
+      <div id="section1">
+	<h2>Section 1</h2>
+	<h3>1.1 What syntax errors do you notice in the above code?</h3>
+	<p>It is impossible to edit variables who have been set using the "let" term.</p>
+
+	<h3>1.2 What logic errors do you see in the above code?</h3>
+	<p>When you set x as y in line 4, they are then the same number, and the number that x originally represented would no longer exist. Thus, when you set y as x in line 5, nothing changes.</p>
+      </div>
+
+      <hr>
+      
+      <div id="section2">
+	<h2>Section 2</h2>
+	<h3>2.1 What will be the value of <b>x</b> after the code executes?</h3>
+	<p>It will gain the value of y.</p>
+
+	<h3>2.1 What will be the value of <b>y</b> after the code executes?</h3>
+	<p>It will not change</p>
+      </div>
+
+      <hr>
+      
+      <div id="section3">
+	<h2>Section 3</h2>
+	<h3>What must be done to properly swap the variables></h3>
+	<p>A third variable (for example, <i>z</i>) must be created to temporarily hold the integar of the first variable that swaps (<i>x</i>), and then you must swap the other variable (<i>y</i>) with to the integar that <i>z</i> z represents.</p>
+      </div>
+
+      <hr>
+      
+      <div id="section4">
+	<h2>Section 4</h2>
+	<h3>Will the above code compile correctly> If not, why not?</h3>
+	<p>It will not compile correctly because the function is changing a variable that has been set outside of the function, and it will protect against that.</p>
+      </div>
+
+      <hr>
+      
+      <div id="section5">
+      	<h2>Section 5</h2>
+	<h3>Carefully compare the above code segment to the previous segment. What changes are required to modify the value of a (value-type) argument in a function?</h3>
+	<p>"inout" is added to the function declaration line right before the declaration that the variable "n" is an Integar. When calling the function, an ampersand sign is also added right before "x".</p>
+      </div>
+      </section>
+
+    <p>&nbsp;</p>
+
+    <div class="jsummaryflexbox">
+    <div class="jsummary">
+    	<h2>What challenges did I encounter?</h2>
+	<p>Looking at the inout part of the function was kind of confusing.</p>
+    </div>
+    
+    <div class="jsummary">
+      <h2>How could this experience be improved?</h2>
+      <p>I think it was pretty clear.</p>
+    </div>
+
+    <div class="jsummary">
+      <h2>What did I learn? What is the "big idea?"</h2>
+      <p>I learned about the inout part of the function and the ampersand we needed to add if we wanted to edit variables that we use in the function.</p>
+    </div>
+
+    <div class="jsummary">
+      <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+      <p>There are more methods that I need to learn from swift that are useful.</p>
+    </div>
+</div>
+    
+    <p id="journal_home"><a href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-II/index.html">CS-II</a></p>
+    <p class="jnav_flexbox" id="journal_home">
+
+<!--      <a href="https://www.codermerlin.com/users/tiffany-jiang/Digital%20Portfolio/CS-I/Journals/J1002.html" class="jnav">J1002: Shell</a> -->
+<!--      <a href="https://www.codermerlin.com/users/tiffany-jiang/Digital%20Portfolio/CS-I/Journals/J1008.html" class="jnav">J1008: Merlin Mission Manager</a>	-->
+    </p>
+    
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../journal.css">
+    <link rel="stylesheet" href="../../../home_bg.css">
+    <link rel="stylesheet" href="../../../sidebar.css">
+    <title>CS-I Journal J1017</title>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <a href="../index.html">Back</a>
+      <hr>
+      <a href="../Projects/ISP/Journal.html">CS-I ISP Journal</a>
+      <a href="../blog.html">Blog</a>
+        <hr>
+            <a href="J1002.html">J1002: Shell</a>
+            <a href="J1006.html">J1006: Source Control</a>
+            <a href="J1008.html">J1008: Merlin Mission Manager</a>
+            <a href="J1012.html">J1012: Alternative Base Addition</a>
+            <a href="J1013.html">J1013: Boolean Algebra</a>
+            <a href="J1016.html">J1016: Logic Composition</a>
+            <a href="J1017.html">J1017: Binary Adders</a>
+            <a href="J1151.html">J1151: Conditional and Flow Chart</a>
+            <a href="J1152.html">J1152: While Loops</a>
+            <a href="J1292.html">J1292: Useful Randomness</a>
+    </div>
+
+    <div class="journalheading">
+      <h1>CS-I Journal J1017: Binary Adders</h1>
+      <p>Name: Tiffany Jiang</p>
+      <p>Date: 10-Oct-2022</p>
+
+      <p>I received assistance from: NO ONE</p>
+      <p>I assisted: NO ONE</p>
+    </div>
+
+    <p>&nbsp;</p>
+    
+    <section class="sections">
+    <div id="section1">
+      <h2>Section 1</h2>
+      <h3>1.1: What truth table do you recognize that produces the output of the <b>C</b>arry column?</h3>
+      <p>The truth table of AND produces this output.</p>
+      <h3>1.2: What truth table do you recognize that produces the output of the <b>S</b>um column?</h3>
+      <p>The XOR truth table produces the output of the <b>S</b>um column.</p>
+    </div>
+
+    <hr>
+
+    <div id="section2">
+      <h2>Section 2</h2>
+      <h3>2.1: What do you notice about the relationship between the first-half (top four rows) of the full-adder as compared to all of the rows of the half-adder?</h3>
+      <p>The outputs of the half-adder and the top four rows of the full-adder are the exact same.</p>
+      <h3>2.2: Why is this true?</h3>
+      <p>The <i>a</i> and <i>b</i> inputs are identical, but in the full-adder, the <i>c</i>-input values of the first four rows are all zeros. Thus, nothing is changed when zeroes are added.</p>
+    </div>
+
+    <hr>
+
+    <div id="section3">
+      <h2>Section 3</h2>
+      <h3>Why does the least significant bit position use a half-adder rather than a full-adder?</h3>
+      <p> The total number of bits added together would have to be odd when the least significant bit position is a full-adder, which adds together three bits instead of the two of a half-adder.</p>
+      <h3>Assume that proper inputs are applied for all bits in numbers A and B. Will the correct output from S be available instantaneously? If not, why not?</h3>
+      <p>The correct output from S would be available instantaneously in with a single half-adder or full-adder, but it would not be available instantaneously from a ripple carry adder. This is because there are multiple steps to the operation that happen one after the other.</p>
+      <h3>Assume that we have a standard (non-scientific calculator) capable of adding two 16-bit words. Two numbers, A and B, are added together. After the addition, it is noted that C(15) is high. What can we infer? What is this state commonly called?</h3>
+      <p>This state is called overflow, where there is an extra unit of counting beyond what the calculator can represent.</p>
+    </div>
+
+    <hr>
+    
+    <div id="section4">
+      <h2><a href="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKDEpEJQBYLveMeXgn5QQKMQhYAZTjwoo8FYhISKxVAGYBDADYBnOtUgy5wwrRUULGkDoNGkJ9r0IJCnblSFLCXsRK0LADuZgq+7mEmoVzmVG4eCVAsALIggsKieGAeIrxUKNBSaT6e3njx-gVFIWEYhBEeeH7JMfI4iZF42IFsIpxd3EqlpQWSprHpDcoS9UpUEPaGxhPt2LlWHWKLestOffHtaulC6cdjSFIAHiDdqhx4eJcI2CC88gDG2gBO3wCeLBueFIng8xFEfmIb3EvH0AFcALamEYVW5wW6ohZ2XaOZIuW5DW4tcG8Zr5cTUKTsbwtCpUEloqhjIKhFE00k5VoE4aEsknfJ9CTEGxzZCRUUXCi1DJnIUi861Bl0kDCqgykw3MCQaZYV7MFAQLAed68L6-AE3VW3DASLWQJB4DBIE0geFIm6US7YV4ILAUdbQ+QASwAdgAHOEAFwAOvptICaLlCLlBNYoS7QxGY-oAEYJygCfy+jwYbivDPhqOx+Me7XpDC0VO6wO8TNV3MJm1CyCvDBWYh1itZ2MfTvo-hIYhgCT8JQugBy2gRdAAXLGACpBzQ6EN-WMAKSD2hDAHMEyR0-VblZuH2WyAACLaSOr2PMWMAeQ+2bQKBQ54HPgoQwdgKGOXhpxAABBecHwAtUECQECkIQOdwAkGC4MtMh6wgLVQKwXgIIkD8ACUE2BCAKiFTkKmddDoNgiiCCJJQB2GEDoUggANMjOwDJ5DS4W5+mIkBePIm4tj8ARhL8cgxIklggA">Exercise</a></h2>
+      <a href="../../assets/images/binary_adder_j1017.png"><img src="../../assets/images/binary_adder_j1017.png"></a>
+    </div>
+    </section>
+
+    <p>&nbsp;</p>
+    
+    <div class="jsummaryflexbox">
+      <div class="jsummary">
+	<h2>What did I learn? What is the "big idea"?</h2>
+	<p>I learned how half-adders and full-adders worked.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>What challenges did I encounter?</h2>
+	<p>I encountered challenges when attempting to build the curcuits in falstad, especially the more conplex full adder.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>How could this experience be improved?</h2>
+	<p>This experience is already pretty good.</p>
+      </div>
+
+      <div class="jsummary">
+	<h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+	<p>After completing the exercise, I have a better understanding of the logic gates.</p>
+      </div>
+    </div>
+
+    <p>&nbsp;</p>
+ 
+  </body>
+</html>

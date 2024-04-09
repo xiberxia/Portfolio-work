@@ -1,0 +1,38 @@
+div.content {
+    margin-left: 230px;
+    padding: 20px 30px;
+    height: 1000px;
+    color: rgb(200,200,200);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+body {
+    scrollbar-color: black transparent;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 1;
+}
+
+.content a {
+    padding: 4% 16px 4% 24px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(190,190,190);
+    display: block;
+}
+
+.content a:hover {
+    color: rgb(240,240,240);
+ /*   background-color: rgb(35,35,35); */
+    background-image: linear-gradient(to right, rgb(35,35,35), rgb(43, 43, 43));
+  }
+
+.content hr {
+    border-color: rgb(150,150,150);
+}
+
+.jounal_navbar section {
+    margin-left: 300px;
+}

@@ -1,0 +1,103 @@
+body {
+    background-color: #e0d5b8;
+    color: #453216;
+    margin: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a {
+    color: #f5f4f0;
+}
+
+/*
+title / heading
+*/
+
+div.journalheading {
+    border: 3px solid #f5f4f0;
+    text-align: center;
+    margin: auto;
+    background-color: #c4af8d;
+    width: 30%;
+    padding-bottom: .5%;
+}
+
+/*
+section questions
+*/
+
+hr {
+    color: #f5f4f0;
+    height: 3px;
+    background-color: #f5f4f0;
+    border-radius: 7px;
+}
+    
+section.sections {
+    background: #9caf88;
+    color: #f5f4f0;
+    width: 50%;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 5px solid #f5f4f0;
+}
+
+section.code {
+    background: #9caf88;
+    color: #f5f4f0;
+    width: 58
+	   %;
+    margin: auto;
+    margin-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 5px solid #f5f4f0;
+    
+}
+
+#code {
+    padding: 20px;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10 {
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    border: 2px solid #f5f4f0;
+}
+
+.jsummaryflexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.jsummary {
+    flex-basis: 20%;
+    border: 3px solid #f5f4f0;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: #c4af8d;
+   
+}
+
+.jnav_flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.jnav {
+    flex-basis: 40%;
+}

@@ -1,0 +1,54 @@
+article.main {
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 220px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main h1 {
+    color: rgb(210,210,210);
+    font-size: 26px;
+    padding-right: 5px;
+}
+
+.main h2 {
+    color: rgb(210,210,210);
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.main h3 {
+    color: rgb(210,210,210);
+    font-weight: 1;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.main p {
+    color: rgb(190,190,190);
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.main a {
+    color: rgb(210,210,210);
+}
+
+/*HORIZONTAL RULE*/
+
+hr {
+    border-color: rgb(100,100,100);
+}
+
+/*IMAGES*/
+img {
+    width: 100%;
+}

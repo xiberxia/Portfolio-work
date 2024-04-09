@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1012</title>
+    <link rel="stylesheet" href="../../site.css">
+  </head>
+
+  <body>
+    <h1>CS-I Journal J1013: Boolean Algebra</h1>
+    <p>Name: Tiffany Jiang</p>
+    <p>Date: 12-Sept-2022</p>
+
+    <p>I received assistance from: Eileen Jin</p>
+    <p>I assisted: Eileen Jin</p>
+
+    <h2>Section 1</h2>
+    <h3>1.1:Why is one of the symbols used for exclusive disjunction the three lines of equivalence, but with a slash through them?</h3>
+    <p>Where equivalance is if and only if both terms A and B are true, exclusive disjunction is true when any term A and/or B is <em>not</em> true.</p>
+
+    <h2>Section 2</h2>
+    <h3>2.1: Why is the formula for determining the number of rows in a truth table related only to the number of inputs, and why is the formula 2^<em>n</em> (or 2 to the power of <em>n</em>)?</h3>
+    <p>For every input, a new column is created, and thus that'd be the <em>x</em> (or <em>n</em>) variable. The formula is 2^n because there are two possible options for <em>n</em> to be: true (1), or false (0).</p>
+    
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>There are different operators in boolean algebra that make it very confusing and interesting to learn.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>I encountered challenges trying to learn and figure out the secondary and order of operations.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>This experience could be improved by better explanations such as on the XOR secondary operon, although the table later under truth tables helps. Perhaps move it to just under the secondary operations section.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>Boolean algebra is about interpreting truth and false values.</p>
+    
+    <p>&nbsp</p>
+
+    <p><a href="https://www.codermerlin.com/users/tiffany-jiang/Digital Portfolio/CS-I/index.html">Back</a></p>
+    
+  </body>
+</html>
