@@ -12,3 +12,19 @@ h2 {
 #text_hello {
     text-align: center;
 }
+
+h3 {
+    color: #d8d8d8;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p,li {
+    color: #b5b5b5;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+#for_prabir {
+    color:  #00ff00 
+}
