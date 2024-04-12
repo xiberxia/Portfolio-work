@@ -7,7 +7,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: the_island }
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 //make render box
-renderer.setSize(window.innerWidth/2, window.innerHeight/2);
+renderer.setSize(window.innerWidth-225, window.innerHeight);
 renderer.setClearColor(0x2b2b2b);
 renderer.setPixelRatio(window.devicePixelRatio);
 

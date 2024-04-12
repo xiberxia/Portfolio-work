@@ -1,24 +1,31 @@
+/*Overall left margin*/
 article {
     margin-left: 250px;
 }
 
+/*Main title (hello world)*/
 h2 {
     color: #f1f1f1;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     text-align: center;
+    position: fixed;
+    z-index: 1;
 }
 
+/*Personal intro*/
 #text_hello {
     text-align: center;
 }
+
 
 h3 {
     color: #d8d8d8;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 25px;
-    
+    position: fixed;
+    z-index: 1;
 
 }
 
@@ -26,15 +33,24 @@ p,li {
     color: #b5b5b5;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
+    position: fixed;
+    z-index: 1;
+
 }
 
 li {
     margin-right: 10px;
 }
 
+li.achievementsList {
+    line-height: 1.5;
+}
+
 .achievements_21_22, .achievements_22_23, .achievements_23_24 {
     width: 40%;
     border: solid;
+    position: fixed;
+    z-index: 1;
 }
 
 .achievements_21_22 {
@@ -49,15 +65,14 @@ li {
     margin-left: 50%;
 }
 
-li {
-    line-height: 1.5;
-}
-
 .island_3D {
-    position: absolute;
 
 }
 
-canvas {
-    margin-left: 250px;
+.webgl {
+    position: fixed;
+    top:0px;
+    left: 225px;
+    z-index: 0;
 }
+
