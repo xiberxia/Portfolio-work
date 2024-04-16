@@ -3,7 +3,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 //get the renderer
-const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: the_island });
+const renderer = new THREE.WebGLRenderer({ antialias: true, canvas: document.querySelector('#the_island') });
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 
 //make render box
@@ -22,24 +22,24 @@ const scene = new THREE.Scene();
 
 //create camera
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-camera.position.set(3, 2, 2);
+camera.position.set(5, 2, 2);
 camera.lookAt(0,0,0);
 
 
 //move camera around
-
+/*
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = false;
-controls.minDistance = 5;
-controls.maxDistance = 20;
+//controls.minDistance = 5;
+//controls.maxDistance = 20;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = false;
 controls.target = new THREE.Vector3(0, 0, 0);
 controls.autoRotate = false;
 controls.update();
-
+*/
 
 //make ground plane
 const groundGeometry = new THREE.PlaneGeometry(20, 20, 32, 32);
@@ -109,7 +109,7 @@ function animate() {
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
     if (mixer)
-        mixer.update(clock.getDelta());controls.update();
+        mixer.update(clock.getDelta());//controls.update();
   }
   
   //call the function
