@@ -29,34 +29,36 @@
 
       <article id="main_text">
         
-        <script type="module" src="/Digital Portfolio New/island.js"></script> 
         
-        <div>
-          <canvas class="webgl" id="the_island" width="200" height="100"></canvas>
-        </div>
-        
-        <!--
-          style="border:1px solid #FFFFFF;"
-        -->
-        <script src="parallax.js"> </script>
-        
+
         <section>
         <h2 id="text_hello">
           Hello, World
         </h2>
         </section>
         
-        <section>
-          <h3 id="text_introd" class="parallax">I am Tiffany Jiang:</h3>
-          <p id="text_student" class="parallax">An aspiring student in computer science, cybersecurity, with interests in the arts of music and writing.</p>
-          <p id="text_IB" class="parallax">Currently, pursuing the IB (International Baccalaureate) Diploma at the Allen High School, I've been a part of many individual and team projects, thus gaining a notable amount of experience in both teamwork and time management skills.</p> 
-          <p id="text_ec" class="parallax">Outside of academics, I enjoy volunteering, going to church, and hanging out with my friends.</p>
+        
+        <section class="parallax">
+          <h3 id="text_introd">I am Tiffany Jiang:</h3>
+          <p id="text_student">An aspiring student in computer science, cybersecurity, with interests in the arts of music and writing.</p>
+          <p id="text_IB">Currently pursuing the IB (International Baccalaureate) Diploma at the Allen High School. A part of many individual and team projects. Thus, is highly experienced in both teamwork, communication, and time management skills.</p> 
+          <p id="text_ec">Outside of academics, I enjoy volunteering, going to church, and hanging out with my friends.</p>
         </section>
 
-        <section>
+        <section class="parallax cs_achievements" id="cs_achieve">
+          <h3>Computer Science</h3>
+          <p>I've been studying Computer Science at Allen High School for three years, and have since gained experience in <b>Swift</b>, <b>Java</b>, <b>HTML</b>, and <b>CSS</b> by working in a Linux environment.</p>
+          <li class="cs_achievements">Beginning at the <i>Fundamentals of Computer Science</i>, where I learned about computer hardware and various basic programming concepts, I was able to quickly acclimate myself to the subject. </li>
+          <li class="cs_achievements">In <i>Computer Science I</i>, I was introduced to the Linux shell, where I would create the first rendition of my Portfolio in HTML and CSS, as well as practice and learn the Swift coding language using the Emacs editor. </li>
+          <li class="cs_achievements">Finally, in <i>Computer Science II</i>, I continued developing my Swift skills, learning about algorithms, and also begin on an Independent Study Project with a team to create a working mouse from scratch. I also worked with a team to participate in the CyberPatriot Cybersecurity Competition as well as the PicoCTF 2024 Competition.</li>
+          
+        </section> 
+
+        <section class="parallax theAccordion" id="gen_achieve">
+          <h3>Achievements</h3>
           <!--2021-2022-->
-          <div class="achievements_21_22 parallax">
-          <h3>School Year of 2021-2022</h3>
+          <button class="accordion achieve21_22">School Year of 2021-2022</button>
+          <div class="accordPanel">
             <ul>
               <li>Participant and Writer for the LFC Write Club</li>
               <li>1st Violin of the LFC Chamber Orchestra</li>
@@ -72,42 +74,42 @@
           </div>
 
           <!--2022-2023-->
-          <div class="achievements_22_23 parallax">
-            <h3>School Year of 2022-2023</h3>
+          <button class="accordion achieve22_23">School Year of 2022-2023</button>
+          <div class="accordPanel">
             <ul>
-              <li class=" achievementsList">Computer Science Forum</li>
+              <li>Computer Science Forum</li>
               <ul>
-                <li class=" achievementsList">OC3</li>
+                <li >OC3</li>
               </ul>
-              <li class=" achievementsList">1st Violin of the AHS Sinfonia I Orchestra</li>
+              <li >1st Violin of the AHS Sinfonia I Orchestra</li>
                 <ul>
-                  <li class=" achievementsList">Gained experience at the Disney Instrumental Music Workshop</li>
+                  <li >Gained experience at the Disney Instrumental Music Workshop</li>
                 </ul>
-              <li class=" achievementsList">National Honor Society (NHS)</li>
+              <li >National Honor Society (NHS)</li>
               <ul>
-                <li class=" achievementsList">Volunteer at Grace Bridge and Chin Tutoring programs</li>
-                <li class=" achievementsList">Volunteer for Allen Public Library</li>
+                <li >Volunteer at Grace Bridge and Chin Tutoring programs</li>
+                <li >Volunteer for Allen Public Library</li>
               </ul>
             </ul>
           </div>
 
           <!--2023-2024-->
-          <div class="achievements_23_24 parallax">
-            <h3>School Year of 2023-2024</h3>
+          <button class="accordion achieve23_24">School Year of 2023-2024</button>
+          <div class="accordPanel">
             <ul>
-              <li class=" achievementsList">Computer Science Forum</li>
+              <li >Computer Science Forum</li>
               <ul>
-                <li class=" achievementsList">CyberPatriots Cyberscuritu Competition</li>
-                <li class=" achievementsList">Mr Ben's Merch Store Developer</li>
+                <li >CyberPatriots Cyberscuritu Competition</li>
+                <li >Mr Ben's Merch Store Developer</li>
               </ul>
-              <li class=" achievementsList">1st Violin of the AHS Chamber II Orchestra</li>
+              <li >1st Violin of the AHS Chamber II Orchestra</li>
                 <ul>
-                  <li class=" achievementsList">Volunteer Violinist for Church Christmas and Easter Programs</li>
+                  <li >Volunteer Violinist for Church Christmas and Easter Programs</li>
                 </ul>
-              <li class=" achievementsList">National Honor Society (NHS)</li>
+              <li >National Honor Society (NHS)</li>
               <ul>
-                <li class=" achievementsList">Volunteer Chin Tutoring programs</li>
-                <li class=" achievementsList">Volunteer for Allen Public Library</li>
+                <li >Volunteer Chin Tutoring programs</li>
+                <li >Volunteer for Allen Public Library</li>
               </ul>
             </ul>
           </div>
@@ -120,7 +122,20 @@
         
         
       </article>      
-      
+
+      <script type="module" src="/Digital Portfolio New/island.js"></script> 
+        
+        <div>
+          <canvas class="webgl" id="the_island" width="200" height="100"></canvas>
+        </div>
+
+
+        <!--
+          style="border:1px solid #FFFFFF;"
+        -->
+        <script src="parallax.js"> </script>
+        <script src="accordion.js"></script>
+
   </body>
   
 </html>

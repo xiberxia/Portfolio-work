@@ -18,7 +18,7 @@ h2 {
     text-align: center;
 }
 
-
+/*section heading*/
 h3 {
     color: #d8d8d8;
     font-family: 'Courier New', Courier, monospace;
@@ -29,11 +29,12 @@ h3 {
 
 }
 
+/*section description*/
 p,li {
     color: #b5b5b5;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    position: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+position: fixed;
     z-index: 1;
 
 }
@@ -42,29 +43,74 @@ li {
     margin-right: 10px;
 }
 
-li.achievementsList {
-    line-height: 1.5;
+/*achievements*/
+li.cs_achievements {
+    margin-bottom: 20px;
 }
 
-.achievements_21_22, .achievements_22_23, .achievements_23_24 {
-    width: 40%;
-    border: solid;
+.theAccordion {
     position: fixed;
     z-index: 1;
 }
 
-.achievements_21_22 {
-    margin-left: 10%;
+.accordion {
+    color: #d8d8d8;
+    background-color: rgb(10,10,10);
+    border: solid;
+    border-width: 2px 2px 0px 2px;;
+    border-color: rgb( 45, 169, 0 );
+    width: 100%;
+    line-height: 1;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.4s;
+    text-align: left;
 }
 
-.achievements_22_23 {
-    margin-left: 30%;
+.achieve21_22 {
+    border-width: 2px 2px 0px 2px;
 }
 
-.achievements_23_24 {
-    margin-left: 50%;
+.achieve22_23 {
+    border-width: 1px 2px 0px 2px;
 }
 
+.achieve23_24 {
+    border-width: 1px 2px 1px 2px;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(0,0,0);
+    border-color:rgb( 108, 203, 0 )
+  }
+
+.accordPanel {
+    line-height: 1.5;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb( 45, 169, 0 );
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(17,17,17);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 15px;
+    color: #d8d8d8;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+/*3JS Island*/
 .island_3D {
 
 }
